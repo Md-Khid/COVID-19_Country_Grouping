@@ -108,15 +108,14 @@ For the concluding data exploration, the project will demonstrate the associatio
 
 From the obtained variables, the study will proceed to further examine the combined dataset with IBM SPSS Modeller. At this stage of preparation, the study will insert a Database node into the modeller stream to read the dataset. It will then filter out the ‘Location’, 'Date' & ‘Country Income Level’ variables in the Database node to prevent them from being fed into the clustering algorithm. Following this, it will input the filtered dataset into the Data Audit node to assess the quality and distribution of the combined data.
 
-From the data quality table, it can be observed that there are no missing data detected. However, there are some outliers present in the data for the years 2021 and 2022, with an extreme outlier present in the data for the year 2022. These outliers might signify unusual or exceptional circumstances that remain valid and pertinent to the analysis. Eliminating them may result in a loss of valuable insights into these distinct situations. Variables such as population size, total deaths and air quality can naturally display considerable variation across various regions or countries. Outliers in these variables may merely mirror the inherent diversity of the data rather than errors or anomalies.
+From the data quality table, it can be observed that there are no missing data detected. However, there are some outliers present in the data for the years 2021 and 2022, with an extreme outlier present in the data for the year 2022. These outliers might signify unusual or exceptional circumstances that remain valid and pertinent to the analysis. Eliminating them may result in a loss of valuable insights into these distinct situations. Variables such as population size, total deaths, air quality, total cases, infant mortality rates, stringent index and HIV/AIDS can display considerable variation across various regions or countries.  Outliers in these variables may merely mirror the inherent diversity of the data rather than errors or anomalies 
 
 ##### Data Quality Table for Yr.2021
 
-![Picture7 (2021)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/de2903f2-7238-4623-ae0c-47412bf18022)
+![Picture7(2021)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/94908a24-a2b5-48d5-8c68-c414e4caf440)
 
 
 ##### Data Quality Table for Yr.2022
-![Picture8 (2022)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/9346e23c-a91a-4c62-a120-2c7cb500a17a)
 
-
+![Picture8(2022)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/7313df15-14e3-477d-b744-03e3c916789e)
 
