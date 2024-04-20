@@ -134,14 +134,36 @@ From the data audit table, it can be observed that the minimum and maximum value
 
 Given the limitations of IBM SPSS Modeller, the project shall utilise JMP Statistical Software to help generate the multicollinearity values between the variables. Multicollinearity can adversely impact the clustering algorithm by causing distortions in the weights across different clusters. This could lead to sub-optimal weights or variables, potentially resulting in an inaccurate clustering solution. To overcome the issue of multicollinearity, the study will examine the Variance Inflation Factor (VIF) value generated for each variable. To achieve this, it will utilise the JMP statistical software to run a simple linear regression model based on the equation below.
 
+##### Linear Regression Equation
+
 ![Picture9](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/4b176f49-e1e4-4881-a442-9c59cd1f9098)
 
 After entering the equation into the software, the study can generate the VIF values for the variables. Generally, the VIF value should be lower than 10. If the value for the variable(s) is greater than 10, this implies that there is multicollinearity between the variables. To address this, the study must remove the affected variable(s) and recheck the VIF values for the remaining variables. If the VIF value for the remaining variables remains beneath 10, the study can then proceed to remove the affected variable(s) from the equation. From the generated VIF table, it can be observed that the VIF values for the Total cases, Total Deaths, Chronic Obstructive Pulmonary Disease and Infant Mortality rate variables are greater than 10, with the remaining variables having a VIF value lower than 10.
 
+#### VIF values for all variables
 
 ![Picture10](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/5ac3390f-e7a1-46e1-b980-c67dfe3a8a4c)
 
 Despite initially being regarded as affecting variables, the project decided to retain the Total Cases, Total Deaths, Chronic Obstructive Pulmonary Disease, and Infant Mortality Rate variables in the equation due to their importance for the formation of country clusters, as established by the literature review. It is noted that their high VIF values are caused by the multicollinearity effect from the Percentage Ratio of Total Cases to Total Population variable. To address this matter, the project removed both the Population and Total Cases variables from the equation. Following the removal of the variables, it can be seen that the VIF values for all the variables are now lower than 10.
 
+#### VIF values for all variables (after removing the affecting variable)
+
 ![Picture11](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/2290b91f-4f50-41db-b65a-a62474986f41)
+
+Based on this stage of preparation, the project was able to successfully eliminate the variables that could lead to multicollinearity during the clustering process. The final 14 variables will then be inputted into clustering algorithm during the modelling stage.
+
+### Proposed Modelling and Evaluation
+
+#### Two-Step Modelling and Cluster Results
+
+In this stage, the Two-Step node will be used to feed the dataset into the SPSS modeller stream, generating cluster groupings using the specified inputs and default model settings, with the exception of the distance measure, for which the Euclidean distance will be utilised.
+
+
+![Picture12](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/115a0a9a-5499-4e40-beb9-1a204573188f)
+
+
+Based on the clustering results, the Two-Step algorithm was capable of automatically generating the optimal number of clusters for the study, generating two distinct clusters of the appropriate sizes. However, the automatic number of cluster groupings produced by the Two-Step algorithm may not be sufficiently accurate for use in the study 
+
+
+
 
