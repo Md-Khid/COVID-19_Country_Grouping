@@ -108,7 +108,7 @@ For the concluding data exploration, the project will demonstrate the associatio
 
 ##### Data Understanding and Preparation in IBM SPSS Modeller
 
-From the obtained variables, the study will proceed to further examine the combined dataset with IBM SPSS Modeller. At this stage of preparation, the study will insert a Database node into the modeller stream to read the dataset. It will then filter out the ‘Location’, 'Date' & ‘Location’ variables in the Database node to prevent them from being fed into the clustering algorithm. Following this, it will input the filtered dataset into the Data Audit node to assess the quality and distribution of the combined data.
+From the obtained variables, the project will proceed to further examine the combined dataset with IBM SPSS Modeller. At this stage of preparation, the study will insert a Database node into the modeller stream to read the dataset. It will then filter out the ‘Location’, 'Date' & ‘Location’ variables in the Database node to prevent them from being fed into the clustering algorithm. Following this, it will input the filtered dataset into the Data Audit node to assess the quality and distribution of the combined data.
 
 
 
