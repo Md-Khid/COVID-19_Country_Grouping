@@ -136,5 +136,10 @@ Given the limitations of IBM SPSS Modeller, the project shall utilise JMP Statis
 
 ![Picture9](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/4b176f49-e1e4-4881-a442-9c59cd1f9098)
 
+After entering the equation into the software, the study can generate the VIF values for the variables. Generally, the VIF value should be lower than 10. If the value for the variable(s) is greater than 10, this implies that there is multicollinearity between the variables. To address this, the study must remove the affected variable(s) and recheck the VIF values for the remaining variables. If the VIF value for the remaining variables remains beneath 10, the study can then proceed to remove the affected variable(s) from the equation. From the generated VIF table, it can be observed that the VIF values for the Total cases, Total Deaths, Chronic Obstructive Pulmonary Disease and Infant Mortality rate variables are greater than 10, with the remaining variables having a VIF value lower than 10.
+
+
+![Picture10](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/5ac3390f-e7a1-46e1-b980-c67dfe3a8a4c)
+
 
 
