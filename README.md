@@ -38,7 +38,7 @@ The purpose of this process is to gain a thorough understanding of the data attr
 
 
 The extracted data are combined into a single Microsoft Excel file by utilising the v-lookup function to retrieve the necessary variables contained in the downloaded dataset. An additional variable titled 'Percentage Ratio of Total Cases to Total Population' will be generated to acquire the percentage value of COVID-19 occurrences. This variable will be used in the study to reflect the number of infection cases per population within a country. For the purpose of simplicity in the study, only countries with full data for the years 2021 and 2022 will be chosen for the analysis.
-Based on this preparatory stage, the study has identified a total of 37 countries to be used in the clustering method. The variables obtained from the combined dataset are described in Table below.
+Based on this preparatory stage, the study has identified a total of 37 countries to be used in the clustering method. The variables obtained from the combined dataset are described in table below.
 
 | Field                                            | Data Type | Description                                                       |
 |--------------------------------------------------|-----------|-------------------------------------------------------------------|
