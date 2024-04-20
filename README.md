@@ -209,6 +209,8 @@ However, Bahrain stands out as an exception in this regard. Despite belonging to
 
 ![Picture17](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/ba5ab7d8-6b12-43c6-b89d-21d06b12b445)
 
+#### US-CDC Travel Notice for Bahrain
+
 ![Picture18](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/b6f52379-f71a-4a26-b58c-b6ad7c1b1975)
 
 
