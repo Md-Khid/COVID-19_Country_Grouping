@@ -100,15 +100,24 @@ A closer examination reveals, however, that the rise in total vaccinations per h
 <img width="1090" alt="Picture5" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/7d4aa214-d707-4e4b-9bcb-6e1b02abeffe">
 
 
-### Country Characteristics and Disease Burden Yr.2022
-
+### Country Characteristics and Disease Burden for the Years 2021 & 2022
 For the concluding data exploration, the project will demonstrate the association between a country's location and income level, and the extent of both infectious and chronic diseases. It can be seen that in lower middle-income countries such as Zimbabwe, there is a greater prevalence of infectious diseases such as HIV and AIDS, whereas in upper-middle countries such as Azerbaijan, Malaysia, Thailand, Brazil and China, chronic diseases like Chronic Obstructive Pulmonary Disease (COPD) are more commonly observed. It can also be observed that both these lower and upper middle-income countries tend to demonstrate a higher prevalence of chronic diseases when compared to the high-income countries such as Bahrain, Japan, and Singapore. Consequently, it is likely that the population in these countries may lack the necessary access to healthcare facilities to receive the necessary medical treatment.
 
 <img width="1746" alt="Picture6" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/88b3cb0b-2557-4cbc-8421-ddfb74bfb95f">
 
 ##### Data Understanding and Preparation in IBM SPSS Modeller
 
-From the obtained variables, the project will proceed to further examine the combined dataset with IBM SPSS Modeller. At this stage of preparation, the study will insert a Database node into the modeller stream to read the dataset. It will then filter out the ‘Location’, 'Date' & ‘Location’ variables in the Database node to prevent them from being fed into the clustering algorithm. Following this, it will input the filtered dataset into the Data Audit node to assess the quality and distribution of the combined data.
+From the obtained variables, the study will proceed to further examine the combined dataset with IBM SPSS Modeller. At this stage of preparation, the study will insert a Database node into the modeller stream to read the dataset. It will then filter out the ‘Location’, 'Date' & ‘Country Income Level’ variables in the Database node to prevent them from being fed into the clustering algorithm. Following this, it will input the filtered dataset into the Data Audit node to assess the quality and distribution of the combined data.
+
+From the data quality table, it can be observed that there are no missing data detected. However, there are some outliers present in the data for the years 2021 and 2022, with an extreme outlier present in the data for the year 2022. These outliers might signify unusual or exceptional circumstances that remain valid and pertinent to the analysis. Eliminating them may result in a loss of valuable insights into these distinct situations. Variables such as population size, total deaths and air quality can naturally display considerable variation across various regions or countries. Outliers in these variables may merely mirror the inherent diversity of the data rather than errors or anomalies.
+
+#### Data Quality Table for Yr.2021
+
+![Picture7 (2021)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/de2903f2-7238-4623-ae0c-47412bf18022)
+
+
+#### Data Quality Table for Yr.2022
+![Picture8 (2022)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/9346e23c-a91a-4c62-a120-2c7cb500a17a)
 
 
 
