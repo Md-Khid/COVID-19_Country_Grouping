@@ -134,8 +134,7 @@ From the data audit table, it can be observed that the minimum and maximum value
 
 Given the limitations of IBM SPSS Modeller, the project shall utilise JMP Statistical Software to help generate the multicollinearity values between the variables. Multicollinearity can adversely impact the clustering algorithm by causing distortions in the weights across different clusters. This could lead to sub-optimal weights or variables, potentially resulting in an inaccurate clustering solution. To overcome the issue of multicollinearity, the study will examine the Variance Inflation Factor (VIF) value generated for each variable. To achieve this, it will utilise the JMP statistical software to run a simple linear regression model based on the equation below.
 
-(Country Income Level ) ̂= θ ̂0  + θ ̂1 Population + θ ̂2 Total Cases + θ ̂3 Percentage ratio of Total Cases: Population + θ ̂4 Total Deaths + θ ̂5 Total Vaccinations per hundred + θ ̂6 GDP per capita + θ ̂7 Female smokers + θ ̂8 Male smokers + θ ̂9 Stringency Index + θ ̂10 Diabetes Mellitus + θ ̂11  HIV/AIDS + θ ̂12 Chronic Obstructive Pulmonary Disease (COPD) + θ ̂13 Tuberculosis + θ ̂14 Air Quality PM2.5 + θ ̂15 Health Security Index + θ ̂16 Infant Mortality Rate + e ̂i
-
+![Picture9](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/4b176f49-e1e4-4881-a442-9c59cd1f9098)
 
 
 
