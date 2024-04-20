@@ -64,6 +64,6 @@ Based on this preparatory stage, the project has identified a total of 37 countr
 ## Data Exploration
 For data exploration (utilising MS Excel pivot table), the project will delve deeper into the relationships between the locations of the countries and their total vaccinations per hundred, GDP per capita, and the prevalence of chronic and infectious diseases. In this section the study will demonstrate the significant rise in the number of countries that have commenced their vaccination per 100 people since 2020. During the initial stages of the virus outbreak, it can be observed that only Bahrain and Israel had begun vaccinating their populations.
 
-![1](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/fa4ecfda-ee1b-45e4-9c8d-c3f63fe0b1e8)
+![1](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/57e28397-1cfb-4c96-b19c-74ac19a38a61)
 
 
