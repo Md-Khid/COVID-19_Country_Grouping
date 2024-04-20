@@ -108,7 +108,7 @@ For the concluding data exploration, the project will demonstrate the associatio
 
 From the obtained variables, the study will proceed to further examine the combined dataset with IBM SPSS Modeller. At this stage of preparation, the study will insert a Database node into the modeller stream to read the dataset. It will then filter out the ‘Location’, 'Date' & ‘Country Income Level’ variables in the Database node to prevent them from being fed into the clustering algorithm. Following this, it will input the filtered dataset into the Data Audit node to assess the quality and distribution of the combined data.
 
-From the data quality table, it can be observed that there are no missing data detected. However, there are some outliers present in the data for the years 2021 and 2022, with an extreme outlier present in the data for the year 2022. These outliers might signify unusual or exceptional circumstances that remain valid and pertinent to the analysis. Eliminating them may result in a loss of valuable insights into these distinct situations. Variables such as population size, total deaths, air quality, total cases, infant mortality rates, stringent index and HIV/AIDS can display considerable variation across various regions or countries.  Outliers in these variables may merely mirror the inherent diversity of the data rather than errors or anomalies 
+From the data quality table, it can be observed that there are no missing data detected. However, there are some outliers present in the data for the years 2021 and 2022, with an extreme outlier present in the data for the year 2022. These outliers might signify unusual or exceptional circumstances that remain valid and pertinent to the analysis. Eliminating them may result in a loss of valuable insights into these distinct situations. Variables such as population size, total deaths, air quality, total cases, infant mortality rates, stringent index and HIV/AIDS can display considerable variation across various regions or countries.  Outliers in these variables may merely mirror the inherent diversity of the data rather than errors or anomalies.
 
 ##### Data Quality Table for Yr.2021
 
@@ -119,14 +119,17 @@ From the data quality table, it can be observed that there are no missing data d
 
 ![Picture8(2022)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/7313df15-14e3-477d-b744-03e3c916789e)
 
-From the data audit table, it can be observed that the minimum and maximum values for the variables in both datasets are not uniformly standardised or within the same range. This range distribution can have a significant impact on the effectiveness of the K-means clustering algorithm, as it utilises the Euclidean Distance Measure to estimate the distance between two observations (i.e. x and y) to define the shape and relationship of the clusters.
+From the data audit table, it can be observed that the minimum and maximum values for the variables in both datasets are not uniformly standardised or within the same range. This range distribution can have a significant impact on the effectiveness of the K-means clustering algorithm, as it utilises the Euclidean Distance Measure to estimate the distance between two observations (i.e. x and y) to define the shape and relationship of the clusters. To address the problem of data uniformity, the dataset will be passed through the Auto Data Prep node to scale all continuous variables into a linear format.
 
-##### Data Audit Table for Yr.2021
+##### Data Audit Table for Yr.2021 (Before & After scaling)
 
-![2021](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/48be9291-99de-4c85-b855-cccaf21768d1)
+![2021(2)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/8860de93-f85f-4919-864d-7decb1475ff5)
 
-##### Data Audit Table for Yr.2022
 
-![2022](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/0ec20a7c-3ca8-4271-a4c1-47d2a41d710e)
+##### Data Audit Table for Yr.2022 (Before & After scaling)
+
+![2022](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/e8a0c7d0-af17-436a-bc67-7fe12b67028f)
+
+
 
 
