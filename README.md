@@ -14,7 +14,7 @@ The business analytics problem is to accurately group countries based on their r
 
 
 ## Data Understanding and Preparation
-#### Data Understanding and Preparation in Microsoft Excel
+### Data Understanding and Preparation in Microsoft Excel
 The purpose of this process is to gain a thorough understanding of the data attributes, distribution, quality and statistical data that will be used in the study. To obtain the dataset, the project will utilise publicly available data sources on the internet. Only the specific variable name(s) specified in table below will be selected from each dataset for the study. The motivation for selecting such variables from these online sources is that both the variable name(s) and datasets have been utilised by prior researches discussed in the literature review. Therefore, the variable(s) of interest are extracted from each downloaded dataset.
 
 | Variable Name                              | Dataset                                             | Webpage                            |
@@ -104,7 +104,7 @@ For the concluding data exploration, the project will demonstrate the associatio
 
 <img width="1746" alt="Picture6" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/88b3cb0b-2557-4cbc-8421-ddfb74bfb95f">
 
-#### Data Understanding and Preparation in IBM SPSS Modeller
+### Data Understanding and Preparation in IBM SPSS Modeller
 
 From the obtained variables, the study will proceed to further examine the combined dataset with IBM SPSS Modeller. At this stage of preparation, the study will insert a Database node into the modeller stream to read the dataset. It will then filter out the ‘Location’, 'Date' & ‘Country Income Level’ variables in the Database node to prevent them from being fed into the clustering algorithm. Following this, it will input the filtered dataset into the Data Audit node to assess the quality and distribution of the combined data.
 
@@ -131,6 +131,11 @@ From the data audit table, it can be observed that the minimum and maximum value
 
 
 ### Data Understanding and Preparation in JMP Statistical Software 
+
+Given the limitations of IBM SPSS Modeller, the project shall utilise JMP Statistical Software to help generate the multicollinearity values between the variables. Multicollinearity can adversely impact the clustering algorithm by causing distortions in the weights across different clusters. This could lead to sub-optimal weights or variables, potentially resulting in an inaccurate clustering solution. To overcome the issue of multicollinearity, the study will examine the Variance Inflation Factor (VIF) value generated for each variable. To achieve this, it will utilise the JMP statistical software to run a simple linear regression model based on the equation below.
+
+(Country Income Level ) ̂= θ ̂0  + θ ̂1 Population + θ ̂2 Total Cases + θ ̂3 Percentage ratio of Total Cases: Population + θ ̂4 Total Deaths + θ ̂5 Total Vaccinations per hundred + θ ̂6 GDP per capita + θ ̂7 Female smokers + θ ̂8 Male smokers + θ ̂9 Stringency Index + θ ̂10 Diabetes Mellitus + θ ̂11  HIV/AIDS + θ ̂12 Chronic Obstructive Pulmonary Disease (COPD) + θ ̂13 Tuberculosis + θ ̂14 Air Quality PM2.5 + θ ̂15 Health Security Index + θ ̂16 Infant Mortality Rate + e ̂i
+
 
 
 
