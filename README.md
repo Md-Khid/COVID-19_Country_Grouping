@@ -119,3 +119,14 @@ From the data quality table, it can be observed that there are no missing data d
 
 ![Picture8(2022)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/7313df15-14e3-477d-b744-03e3c916789e)
 
+From the data audit table, it can be observed that the minimum and maximum values for the variables in both datasets are not uniformly standardised or within the same range. This range distribution can have a significant impact on the effectiveness of the K-means clustering algorithm, as it utilises the Euclidean Distance Measure to estimate the distance between two observations (i.e. x and y) to define the shape and relationship of the clusters.
+
+##### Data Audit Table for Yr.2021
+
+![2021](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/48be9291-99de-4c85-b855-cccaf21768d1)
+
+##### Data Audit Table for Yr.2022
+
+![2022](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/0ec20a7c-3ca8-4271-a4c1-47d2a41d710e)
+
+
