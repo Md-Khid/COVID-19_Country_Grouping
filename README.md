@@ -40,7 +40,7 @@ The purpose of this process is to gain a thorough understanding of the data attr
 The extracted data are combined into a single Microsoft Excel file by utilising the v-lookup function to retrieve the necessary variables contained in the downloaded dataset. An additional variable titled 'Percentage Ratio of Total Cases to Total Population' will be generated to acquire the percentage value of COVID-19 occurrences. This variable will be used in the study to reflect the number of infection cases per population within a country. For the purpose of simplicity, only countries with full data for the years 2021 and 2022 will be chosen for the analysis (see combined dataset [here](https://github.com/Md-Khid/K_Means_Clustering/tree/main/Combined%20Dataset%20Yr2021%20and%20Yr2022)).
 Based on this preparatory stage, the project has identified a total of 37 countries to be used in the clustering method. The variables obtained from the combined dataset are described in the data dictionary below.
 
-### Data Dictionary
+#### Data Dictionary
 
 | Field                                            | Data Type | Description                                                       |
 |--------------------------------------------------|-----------|-------------------------------------------------------------------|
@@ -63,60 +63,59 @@ Based on this preparatory stage, the project has identified a total of 37 countr
 | Infant Mortality Rate                            | Continuous| Number of death per 1,000 live births before reaching one year of age |
 | Country Income Level                            | Categorical| "1 = Low Income, 2 = Lower Middle Income 3 = Upper Middle Income, 4 = High Income" |
 
-## Data Exploration
-
+#### Data Exploration
 
 For data exploration (utilising MS Excel pivot table), the project will delve deeper into the relationships between the locations of the countries and their total vaccinations per hundred, GDP per capita, and the prevalence of chronic and infectious diseases. 
 
-### Total Vaccinations Per Hundred Yr.2020
+#### Total Vaccinations Per Hundred Yr.2020
 
 In this section the study will demonstrate the significant rise in the number of countries that have commenced their vaccination per 100 people since 2020. During the initial stages of the virus outbreak, it can be observed that only Bahrain and Israel had begun vaccinating their populations.
 
 ![Picture1](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/e77dce0c-8dde-44e8-9e60-60c43625cdce)
 
-### Total Vaccinations Per Hundred Yr.2021
+#### Total Vaccinations Per Hundred Yr.2021
 
 By the year 2021, only six countries - Bahrain, Chile, Denmark, Malta, Singapore and Uruguay - had begun to actively raise their total vaccination rate to 200 per hundred people. This means that, by that point, each person in the population had received approximately two doses of vaccinations.
 
 <img width="1433" alt="Picture2" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/416fcb62-edb2-47dc-baf3-ef2314b19296">
 
-### Total Vaccinations Per Hundred Yr.2022
+#### Total Vaccinations Per Hundred Yr.2022
 
 By the year 2022, it is estimated that 68% of the 37 countries had begun to raise their total vaccination rate to over 200 vaccinations per hundred people. However, only two of the remaining 12 countries, Bulgaria and Zimbabwe, had achieved a total vaccination rate of less than 100 vaccinations per hundred people. This means that most people in that population had yet to receive a single dose of vaccination.
 
 <img width="1435" alt="Picture3" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/7fa7aa3b-836e-4878-96f6-b3669f4e0a21">
 
-### GDP per capita Yr.2021
+#### GDP per capita Yr.2021
 
 In this section, the project will illustrate the correlation between Total Vaccinations per hundred and a country’s GDP per capita. It can be seen in 2021 that there is a strong association between the total vaccinations and the country's GDP per capita. Therefore, it can be concluded that the higher the country's GDP per capita, the higher the total vaccination rate per hundred people.
 
 <img width="1094" alt="Picture4" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/23067959-64cd-4ff9-bf1d-73bf3d9df6a8">
 
 
-### GDP per capita Yr.2022
+#### GDP per capita Yr.2022
 
 A closer examination reveals, however, that the rise in total vaccinations per hundred people in the population may not be directly correlated to the nation's GDP per capita. Despite a steady GDP per capita in 2022, the number of total vaccinations per hundred is consistently on the rise, shifting to the right. This could suggest that the majority of countries studied are committed to providing their populations with a minimum of two doses of vaccination per hundred individuals, regardless of their GDP levels.
 
 <img width="1090" alt="Picture5" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/7d4aa214-d707-4e4b-9bcb-6e1b02abeffe">
 
 
-### Country Characteristics and Disease Burden for the Years 2021 & 2022
+#### Country Characteristics and Disease Burden for the Years 2021 & 2022
 For the concluding data exploration, the project will demonstrate the association between a country's location and income level, and the extent of both infectious and chronic diseases. It can be seen that in lower middle-income countries such as Zimbabwe, there is a greater prevalence of infectious diseases such as HIV and AIDS, whereas in upper-middle countries such as Azerbaijan, Malaysia, Thailand, Brazil and China, chronic diseases like Chronic Obstructive Pulmonary Disease (COPD) are more commonly observed. It can also be observed that both these lower and upper middle-income countries tend to demonstrate a higher prevalence of chronic diseases when compared to the high-income countries such as Bahrain, Japan, and Singapore. Consequently, it is likely that the population in these countries may lack the necessary access to healthcare facilities to receive the necessary medical treatment.
 
 <img width="1746" alt="Picture6" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/88b3cb0b-2557-4cbc-8421-ddfb74bfb95f">
 
-##### Data Understanding and Preparation in IBM SPSS Modeller
+#### Data Understanding and Preparation in IBM SPSS Modeller
 
 From the obtained variables, the study will proceed to further examine the combined dataset with IBM SPSS Modeller. At this stage of preparation, the study will insert a Database node into the modeller stream to read the dataset. It will then filter out the ‘Location’, 'Date' & ‘Country Income Level’ variables in the Database node to prevent them from being fed into the clustering algorithm. Following this, it will input the filtered dataset into the Data Audit node to assess the quality and distribution of the combined data.
 
 From the data quality table, it can be observed that there are no missing data detected. However, there are some outliers present in the data for the years 2021 and 2022, with an extreme outlier present in the data for the year 2022. These outliers might signify unusual or exceptional circumstances that remain valid and pertinent to the analysis. Eliminating them may result in a loss of valuable insights into these distinct situations. Variables such as population size, total deaths and air quality can naturally display considerable variation across various regions or countries. Outliers in these variables may merely mirror the inherent diversity of the data rather than errors or anomalies.
 
-#### Data Quality Table for Yr.2021
+##### Data Quality Table for Yr.2021
 
 ![Picture7 (2021)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/de2903f2-7238-4623-ae0c-47412bf18022)
 
 
-#### Data Quality Table for Yr.2022
+##### Data Quality Table for Yr.2022
 ![Picture8 (2022)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/9346e23c-a91a-4c62-a120-2c7cb500a17a)
 
 
