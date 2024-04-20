@@ -66,19 +66,19 @@ Based on this preparatory stage, the project has identified a total of 37 countr
 
 For data exploration (utilising MS Excel pivot table), the project will delve deeper into the relationships between the locations of the countries and their total vaccinations per hundred, GDP per capita, and the prevalence of chronic and infectious diseases. 
 
-## Total Vaccinations Per Hundred Yr.2020
+### Total Vaccinations Per Hundred Yr.2020
 
 In this section the study will demonstrate the significant rise in the number of countries that have commenced their vaccination per 100 people since 2020. During the initial stages of the virus outbreak, it can be observed that only Bahrain and Israel had begun vaccinating their populations.
 
 ![Picture1](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/e77dce0c-8dde-44e8-9e60-60c43625cdce)
 
-## Total Vaccinations Per Hundred Yr.2021
+### Total Vaccinations Per Hundred Yr.2021
 
 By the year 2021, only six countries - Bahrain, Chile, Denmark, Malta, Singapore and Uruguay - had begun to actively raise their total vaccination rate to 200 per hundred people. This means that, by that point, each person in the population had received approximately two doses of vaccinations.
 
 <img width="1433" alt="Picture2" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/416fcb62-edb2-47dc-baf3-ef2314b19296">
 
-## Total Vaccinations Per Hundred Yr.2022
+### Total Vaccinations Per Hundred Yr.2022
 
 By the year 2022, it is estimated that 68% of the 37 countries had begun to raise their total vaccination rate to over 200 vaccinations per hundred people. However, only two of the remaining 12 countries, Bulgaria and Zimbabwe, had achieved a total vaccination rate of less than 100 vaccinations per hundred people. This means that most people in that population had yet to receive a single dose of vaccination.
 
