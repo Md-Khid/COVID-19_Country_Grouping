@@ -123,13 +123,12 @@ From the data audit table, it can be observed that the minimum and maximum value
 
 ##### Data Audit Table for Yr.2021 (Before & After scaling)
 
-![2021(2)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/8860de93-f85f-4919-864d-7decb1475ff5)
+![2021(2)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/1c7d676c-01b5-49f4-baea-c604d43bcf46)
 
 
 ##### Data Audit Table for Yr.2022 (Before & After scaling)
 
-![2022](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/e8a0c7d0-af17-436a-bc67-7fe12b67028f)
-
+![2022(2)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/a061fb2c-cf23-4e47-b3dd-3783127ab62d)
 
 
 
