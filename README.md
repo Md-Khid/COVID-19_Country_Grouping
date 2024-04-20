@@ -15,3 +15,22 @@ The business analytics problem is to accurately group countries based on their r
 
 ## Data Understanding and Preparation
 ##### Data Understanding and Preparation in Microsoft Excel
+
+| Variable Name                              | Dataset                                             | Webpage                            |
+|--------------------------------------------|-----------------------------------------------------|-----------------------------------|
+| Total Population                           | World Development Indicators                       | [databank.worldbank.org](https://databank.worldbank.org) |
+| Total Cases                                | Covid-19 Dataset                                   | [ourworldindata.org](https://ourworldindata.org) |
+| Total Deaths                               |                                                     |                                   |
+| Total Vaccinations per hundred             |                                                     |                                   |
+| GDP per capita                             |                                                     |                                   |
+| Female Smokers                             |                                                     |                                   |
+| Male Smokers                               |                                                     |                                   |
+| Stringency Index                           |                                                     |                                   |
+| Prevalence Rate Diabetes Mellitus          | Global Burden of Disease Study Dataset            | [ghdx.healthdata.org](https://ghdx.healthdata.org) |
+| Prevalence Rate HIV/AIDS                  |                                                     |                                   |
+| Prevalence Rate Tuberculosis              |                                                     |                                   |
+| Prevalence Rate Chronic Obstructive Pulmonary Disease (COPD) |                                              |                                   |
+| Air Quality PM2.5                         | Air Quality Dataset                                | [who.int](https://who.int)       |
+| Health Security Index                     | GHS Index Dataset                                  | [ghsindex.org](https://ghsindex.org) |
+| Infant Mortality Rate                     | World Development Indicators                       | [databank.worldbank.org](https://databank.worldbank.org) |
+| Country Income Level                      | World Bank Country and Lending Groups Dataset      | [datatopics.worldbank.org](https://datatopics.worldbank.org) |
