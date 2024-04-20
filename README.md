@@ -165,7 +165,7 @@ In this stage, the Two-Step node will be used to feed the dataset into the SPSS 
 Based on the clustering results, the Two-Step algorithm was capable of automatically generating the optimal number of clusters for the study, generating two distinct clusters of the appropriate sizes. However, the automatic number of cluster groupings produced by the Two-Step algorithm may not be sufficiently accurate for use in the study.
 
 #### Determine Optimal K 
-The combined dataset for the years 2021 and 2022 will be fed into a Hierarchal Cluster algorithm, in order to generate the cluster groupings. To determine the number of clusters, the study will input the selected variables into the JMP software and generate a dendrogram using the Hierarchical Clustering-Ward method. However, another alternative method that can be used is the Elbow method through Python programming.
+The combined dataset for the years 2021 and 2022 will be fed into a Hierarchal Cluster algorithm, in order to generate the cluster groupings. To determine the number of clusters, the study will input the selected variables into the JMP software and generate a dendrogram using the Hierarchical Clustering-Ward method.
 
 ### Hierarchical Cluster 
 
@@ -201,7 +201,20 @@ Based on the cluster table, countries in the high-income level group (4), namely
 ![Picture16](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/f5251a5e-4556-447a-8bd9-8261a933966e)
 
 
+
 However, Bahrain stands out as an exception in this regard. Despite belonging to the high-income level, the country has been transitioning from Cluster 1 to Cluster 3 groupings for the past year. A closer examination of the model results reveals that Bahrain's national policies and strategies may not be as effective as those of the other countries in the cluster groupings.
+
+#### Cell Distribution Index
+
+
+![Picture17](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/ba5ab7d8-6b12-43c6-b89d-21d06b12b445)
+
+![Picture18](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/b6f52379-f71a-4a26-b58c-b6ad7c1b1975)
+
+
+In regards to its policy stringency, Bahrain has been lagging, such as with delayed government responses to school closures, workplace closures, and travel bans. Furthermore, global healthcare norms and security have not been adequately adhered to, such as a lack of a reliable healthcare system to treat the sick and protect healthcare workers from the virus. This is further evidenced by the current COVID-19 warning alert issued by the US Centers for Disease Control and Prevention for Bahrain (CDC, 2022).
+
+
 
 
 
