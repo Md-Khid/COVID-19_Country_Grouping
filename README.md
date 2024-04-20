@@ -158,15 +158,16 @@ Based on this stage of preparation, the project was able to successfully elimina
 
 In this stage, the Two-Step node will be used to feed the dataset into the SPSS modeller stream, generating cluster groupings using the specified inputs and default model settings, with the exception of the distance measure, for which the Euclidean distance will be utilised.
 
+#### Cluster Results
 
 ![Picture12](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/115a0a9a-5499-4e40-beb9-1a204573188f)
 
-
 Based on the clustering results, the Two-Step algorithm was capable of automatically generating the optimal number of clusters for the study, generating two distinct clusters of the appropriate sizes. However, the automatic number of cluster groupings produced by the Two-Step algorithm may not be sufficiently accurate for use in the study.
-
 
 #### Determine Optimal K 
 The combined dataset for the years 2021 and 2022 will be fed into a Hierarchal Cluster algorithm, in order to generate the cluster groupings. To determine the number of clusters, the study will input the selected variables into the JMP software and generate a dendrogram using the Hierarchical Clustering-Ward method. However, another alternative method that can be used is the Elbow method through Python programming.
+
+#### Hierarichical Cluster Results
 
 ![Picture13](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/443ccb46-24b6-4639-a47b-6b0ea00a4623)
 
