@@ -141,5 +141,7 @@ After entering the equation into the software, the study can generate the VIF va
 
 ![Picture10](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/5ac3390f-e7a1-46e1-b980-c67dfe3a8a4c)
 
+Despite initially being regarded as affecting variables, the project decided to retain the Total Cases, Total Deaths, Chronic Obstructive Pulmonary Disease, and Infant Mortality Rate variables in the equation due to their importance for the formation of country clusters, as established by the literature review. It is noted that their high VIF values are caused by the multicollinearity effect from the Percentage Ratio of Total Cases to Total Population variable. To address this matter, the project removed both the Population and Total Cases variables from the equation. Following the removal of the variables, it can be seen that the VIF values for all the variables are now lower than 10.
 
+![Picture11](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/470e0f99-a619-48c9-b514-188ab1287ce4)
 
