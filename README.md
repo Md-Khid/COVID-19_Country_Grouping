@@ -152,9 +152,9 @@ Despite initially being regarded as affecting variables, the project decided to 
 
 Based on this stage of preparation, the project was able to successfully eliminate the variables that could lead to multicollinearity during the clustering process. The final 14 variables will then be inputted into clustering algorithm during the modelling stage.
 
-### Proposed Modelling and Evaluation
+## Proposed Modelling and Evaluation
 
-#### Two-Step Modelling and Cluster Results
+### Two-Step Modelling and Cluster Results
 
 In this stage, the Two-Step node will be used to feed the dataset into the SPSS modeller stream, generating cluster groupings using the specified inputs and default model settings, with the exception of the distance measure, for which the Euclidean distance will be utilised.
 
@@ -167,7 +167,7 @@ Based on the clustering results, the Two-Step algorithm was capable of automatic
 #### Determine Optimal K 
 The combined dataset for the years 2021 and 2022 will be fed into a Hierarchal Cluster algorithm, in order to generate the cluster groupings. To determine the number of clusters, the study will input the selected variables into the JMP software and generate a dendrogram using the Hierarchical Clustering-Ward method. However, another alternative method that can be used is the Elbow method through Python programming.
 
-#### Hierarichical Cluster Results
+### Hierarichical Cluster Results
 
 ![Picture13](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/443ccb46-24b6-4639-a47b-6b0ea00a4623)
 
@@ -183,11 +183,14 @@ For 2021 cluster groupings, it can be seen that 75.7% of the countries are in Cl
 
 For 2022 cluster groupings, 73% of the countries are in Cluster 1 (Low Covid-19 risk), 24.3% in Cluster 2 (Moderate Covid-19 risk), and 2.7% in Cluster 3 (High Covid-19 risk); see Figure 4.3.4 and 4.3.5.
 
+#### Cluster Results
 
 ![Picture14](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/789cb698-cb60-4e2a-9425-8f938878e059)
 
 
 In addition to the observation, it can be seen that the predictors for the 2021 and 2022 cluster groupings have different levels of importance. This could be because of the half-year data employed for the 2022 dataset. Nevertheless, the major predictors for both datasets can be attributed to variables such as Infant Mortality Rate, Female Smokers, Chronic Obstructive Pulmonary Disease and the Percentage Ratio of Total Cases to Population.
+
+#### Predictor of Importance
 
 ![Picture15](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/97543bd8-e240-45cc-b9a1-09d0dd48152f)
 
