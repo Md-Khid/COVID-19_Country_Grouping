@@ -161,7 +161,8 @@ In this stage, the Two-Step node will be used to feed the dataset into the SPSS 
 
 #### Cluster Results
 
-![Picture12](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/115a0a9a-5499-4e40-beb9-1a204573188f)
+
+<img width="456" alt="4" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/1abbd7e4-300a-4c64-b398-bdcec24be2eb">
 
 Based on the clustering results, the Two-Step algorithm was capable of automatically generating the optimal number of clusters for the study, generating two distinct clusters of the appropriate sizes. However, the automatic number of cluster groupings produced by the Two-Step algorithm may not be sufficiently accurate for use in the study.
 
