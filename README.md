@@ -200,7 +200,7 @@ For 2022 cluster groupings, 73% of the countries are in Cluster 1 (Low Covid-19 
 ![Importance predictors for Yr](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/9be25061-c23d-461b-b799-441d27796a96)
 
 
-In addition to the observation, it can be seen that the predictors for the 2021 and 2022 cluster groupings have different levels of importance. This could be because of the half-year data employed for the 2022 dataset. Nevertheless, the major predictors for both datasets can be attributed to variables such as Infant Mortality Rate, Female Smokers, Chronic Obstructive Pulmonary Disease and the Percentage Ratio of Total Cases to Population.
+In addition to the observation, it can be seen that the predictors for the 2021 and 2022 cluster groupings have different levels of importance. This could be because of the half-year data employed for the 2022 dataset. Nevertheless, the major predictors for both datasets can be attributed to variables such as Infant Mortality Rate, Chronic Obstructive Pulmonary Disease, Female Smokers and the Percentage Ratio of Total Cases to Population.
 
 #### Cluster Table
 
