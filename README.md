@@ -177,6 +177,11 @@ Based on the hierarchical clustering result, there are three distinct cluster gr
 
 At this point, the study will utilise the K-means node to feed the merged dataset into the SPSS modeller stream. Barring the number of clusters, the study will generate cluster groupings with the following inputs and default model settings. Therefore, the number 3 will be manually input as the optimal clusters for the K-means algorithm.
 
+#### IBM SPSS Modeller Stream
+
+<img width="684" alt="Cluster Model Stream" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/8938ea13-85c3-4cba-a8c0-d6d27f28af37">
+
+
 #### Cluster Results
 
 ![Picture14](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/789cb698-cb60-4e2a-9425-8f938878e059)
