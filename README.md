@@ -1,7 +1,7 @@
 # Project Overview
 
 ## Introduction
-The objective of this project is to conduct an in-depth analysis to determine countries' groupings based on COVID-19 level risk through the use of the K-means clustering method. The project will demonstrate the use of proprietary software tools such as IBM SPSS Modeller, JMP Statistical Software and MS Excel to accurately group countries based on their risk level by employing the most effective clustering strategies using two distinct time periods and selecting the most suitable variables. Guided by the Cross Industry Standard Process for Data Mining (CRISP-DM) methodology, the project aims to derive valuable insights through techniques such as exploratory data analysis (EDA) and clustering modeling for country grouping based on their COVID-19 risk levels.
+The objective of this study is to conduct an in-depth analysis to determine countries' groupings based on COVID-19 level risk through the use of the K-means clustering method. The study will demonstrate the use of proprietary software tools such as IBM SPSS Modeller, JMP Statistical Software and MS Excel to accurately group countries based on their risk level by employing the most effective clustering strategies using two distinct time periods and selecting the most suitable variables. Guided by the Cross Industry Standard Process for Data Mining (CRISP-DM) methodology, the study aims to derive valuable insights through techniques such as exploratory data analysis (EDA) and clustering modeling for country grouping based on their COVID-19 risk levels.
 
 
 ### Business Problem
@@ -10,12 +10,12 @@ As the COVID-19 pandemic spread rapidly around the globe, its devastating effect
 
 ### Business Analytics Problem
 
-The business analytics problem is to accurately group countries based on their risk level by employing the most effective clustering strategies using two distinct time periods and selecting the most suitable variables. Manually selecting arbitrary time periods or variables can result in erroneous cluster formation and therefore, incorrect classification of countries. Additionally, another issue is ascertaining the number of fixed variables to be used across different datasets. This is an essential aspect that must be addressed in order to reduce information loss when diverse cluster formations are observed across different time periods. Through a comprehensive literature review, this project will carefully assess the different clustering strategies and determine the most appropriate modelling technique to be applied for this problem. See full report [here](https://github.com/Md-Khid/K_Means_Clustering/blob/main/Full%20Report.pdf).
+The business analytics problem is to accurately group countries based on their risk level by employing the most effective clustering strategies using two distinct time periods and selecting the most suitable variables. Manually selecting arbitrary time periods or variables can result in erroneous cluster formation and therefore, incorrect classification of countries. Additionally, another issue is ascertaining the number of fixed variables to be used across different datasets. This is an essential aspect that must be addressed in order to reduce information loss when diverse cluster formations are observed across different time periods. Through a comprehensive literature review, this study will carefully assess the different clustering strategies and determine the most appropriate modelling technique to be applied for this problem. See full report [here](https://github.com/Md-Khid/K_Means_Clustering/blob/main/Full%20Report.pdf).
 
 
 ## Data Understanding and Preparation
 ### Data Understanding and Preparation in Microsoft Excel
-The purpose of this process is to gain a thorough understanding of the data attributes, distribution, quality and statistical data that will be used in the study. To obtain the dataset, the project will utilise publicly available data sources on the internet. Only the specific variable name(s) specified in table below will be selected from each dataset for the study. The motivation for selecting such variables from these online sources is that both the variable name(s) and datasets have been utilised by prior researches discussed in the literature review. Therefore, the variable(s) of interest are extracted from each downloaded dataset.
+The purpose of this process is to gain a thorough understanding of the data attributes, distribution, quality and statistical data that will be used in the study. To obtain the dataset, the study will utilise publicly available data sources on the internet. Only the specific variable name(s) specified in table below will be selected from each dataset for the study. The motivation for selecting such variables from these online sources is that both the variable name(s) and datasets have been utilised by prior researches discussed in the literature review. Therefore, the variable(s) of interest are extracted from each downloaded dataset.
 
 | Variable Name                              | Dataset                                             | Webpage                            |
 |--------------------------------------------|-----------------------------------------------------|-----------------------------------|
@@ -65,7 +65,7 @@ Based on this preparatory stage, the study has identified a total of 37 countrie
 
 #### Data Exploration
 
-For data exploration (utilising MS Excel pivot table), the project will delve deeper into the relationships between the locations of the countries and their total vaccinations per hundred, GDP per capita, and the prevalence of chronic and infectious diseases. 
+For data exploration (utilising MS Excel pivot table), the study will delve deeper into the relationships between the locations of the countries and their total vaccinations per hundred, GDP per capita and the prevalence of chronic and infectious diseases. 
 
 #### Total Vaccinations Per Hundred Yr.2020
 
@@ -87,7 +87,7 @@ By the year 2022, it is estimated that 68% of the 37 countries had begun to rais
 
 #### GDP per capita Yr.2021
 
-In this section, the project will illustrate the correlation between Total Vaccinations per hundred and a country’s GDP per capita. It can be seen in 2021 that there is a strong association between the total vaccinations and the country's GDP per capita. Therefore, it can be concluded that the higher the country's GDP per capita, the higher the total vaccination rate per hundred people.
+In this section, the study will illustrate the correlation between Total Vaccinations per hundred and a country’s GDP per capita. It can be seen in 2021 that there is a strong association between the total vaccinations and the country's GDP per capita. Therefore, it can be concluded that the higher the country's GDP per capita, the higher the total vaccination rate per hundred people.
 
 <img width="1094" alt="Picture4" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/23067959-64cd-4ff9-bf1d-73bf3d9df6a8">
 
@@ -100,7 +100,7 @@ A closer examination reveals, however, that the rise in total vaccinations per h
 
 
 #### Country Characteristics and Disease Burden for the Years 2021 & 2022
-For the concluding data exploration, the project will demonstrate the association between a country's location and income level, and the extent of both infectious and chronic diseases. It can be seen that in lower middle-income countries such as Zimbabwe, there is a greater prevalence of infectious diseases such as HIV and AIDS, whereas in upper-middle countries such as Azerbaijan, Malaysia, Thailand, Brazil and China, chronic diseases like Chronic Obstructive Pulmonary Disease (COPD) are more commonly observed. It can also be observed that both these lower and upper middle-income countries tend to demonstrate a higher prevalence of chronic diseases when compared to the high-income countries such as Bahrain, Japan, and Singapore. Consequently, it is likely that the population in these countries may lack the necessary access to healthcare facilities to receive the necessary medical treatment.
+For the concluding data exploration, the study will demonstrate the association between a country's location and income level and the extent of both infectious and chronic diseases. It can be seen that in lower middle-income countries such as Zimbabwe, there is a greater prevalence of infectious diseases such as HIV and AIDS, whereas in upper-middle countries such as Azerbaijan, Malaysia, Thailand, Brazil and China, chronic diseases like Chronic Obstructive Pulmonary Disease (COPD) are more commonly observed. It can also be observed that both these lower and upper middle-income countries tend to demonstrate a higher prevalence of chronic diseases when compared to the high-income countries such as Bahrain, Japan and Singapore. Consequently, it is likely that the population in these countries may lack the necessary access to healthcare facilities to receive the necessary medical treatment.
 
 <img width="1746" alt="Picture6" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/88b3cb0b-2557-4cbc-8421-ddfb74bfb95f">
 
@@ -132,7 +132,7 @@ From the data audit table, it can be observed that the minimum and maximum value
 
 ### Data Understanding and Preparation in JMP Statistical Software 
 
-Given the limitations of IBM SPSS Modeller, the project shall utilise JMP Statistical Software to help generate the multicollinearity values between the variables. Multicollinearity can adversely impact the clustering algorithm by causing distortions in the weights across different clusters. This could lead to sub-optimal weights or variables, potentially resulting in an inaccurate clustering solution. To overcome the issue of multicollinearity, the study will examine the Variance Inflation Factor (VIF) value generated for each variable. To achieve this, it will utilise the JMP statistical software to run a simple linear regression model based on the equation below.
+Given the limitations of IBM SPSS Modeller, the study shall utilise JMP Statistical Software to help generate the multicollinearity values between the variables. Multicollinearity can adversely impact the clustering algorithm by causing distortions in the weights across different clusters. This could lead to sub-optimal weights or variables, potentially resulting in an inaccurate clustering solution. To overcome the issue of multicollinearity, the study will examine the Variance Inflation Factor (VIF) value generated for each variable. To achieve this, it will utilise the JMP statistical software to run a simple linear regression model based on the equation below.
 
 ##### Linear Regression Equation
 
@@ -144,13 +144,13 @@ After entering the equation into the software, the study can generate the VIF va
 
 ![Picture10](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/5ac3390f-e7a1-46e1-b980-c67dfe3a8a4c)
 
-Despite initially being regarded as affecting variables, the project decided to retain the Total Cases, Total Deaths, Chronic Obstructive Pulmonary Disease, and Infant Mortality Rate variables in the equation due to their importance for the formation of country clusters, as established by the literature review. It is noted that their high VIF values are caused by the multicollinearity effect from the Percentage Ratio of Total Cases to Total Population variable. To address this matter, the project removed both the Population and Total Cases variables from the equation. Following the removal of the variables, it can be seen that the VIF values for all the variables are now lower than 10.
+Despite initially being regarded as affecting variables, the study decided to retain the Total Cases, Total Deaths, Chronic Obstructive Pulmonary Disease and Infant Mortality Rate variables in the equation due to their importance for the formation of country clusters, as established by the literature review. It is noted that their high VIF values are caused by the multicollinearity effect from the Percentage Ratio of Total Cases to Total Population variable. To address this matter, the study removed both the Population and Total Cases variables from the equation. Following the removal of the variables, it can be seen that the VIF values for all the variables are now lower than 10.
 
 #### VIF values for all variables (after removing the affecting variable)
 
 ![Picture11](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/2290b91f-4f50-41db-b65a-a62474986f41)
 
-Based on this stage of preparation, the project was able to successfully eliminate the variables that could lead to multicollinearity during the clustering process. The final 14 variables will then be inputted into clustering algorithm during the modelling stage.
+Based on this stage of preparation, the study was able to successfully eliminate the variables that could lead to multicollinearity during the clustering process. The final 14 variables will then be inputted into clustering algorithm during the modelling stage.
 
 ## Proposed Modelling and Evaluation
 
@@ -183,9 +183,9 @@ At this point, the study will utilise the K-means node to feed the merged datase
 
 Based on the model summary, the generated cluster groupings have a reasonable cluster quality of 0.5. Despite this reasonable cluster quality, it can be observed that there are three distinct cluster groupings produced for the cluster results for both the 2021 and 2022 combined datasets. With an adequate number of cluster groupings and distinct cluster sizes generated by the algorithm, the study will continue to assess its findings using the K-means results.
 
-For 2021 cluster groupings, it can be seen that 75.7% of the countries are in Cluster 1 (Low Covid-19 risk), 5.4% in Cluster 2 (Moderate Covid-19 risk), and 18.9% in Cluster 3 (High Covid-19 risk). 
+For 2021 cluster groupings, it can be seen that 75.7% of the countries are in Cluster 1 (Low Covid-19 risk), 5.4% in Cluster 2 (Moderate Covid-19 risk) and 18.9% in Cluster 3 (High Covid-19 risk). 
 
-For 2022 cluster groupings, 73% of the countries are in Cluster 1 (Low Covid-19 risk), 24.3% in Cluster 2 (Moderate Covid-19 risk), and 2.7% in Cluster 3 (High Covid-19 risk); see Figure 4.3.4 and 4.3.5.
+For 2022 cluster groupings, 73% of the countries are in Cluster 1 (Low Covid-19 risk), 24.3% in Cluster 2 (Moderate Covid-19 risk) and 2.7% in Cluster 3 (High Covid-19 risk); see Figure 4.3.4 and 4.3.5.
 
 #### Predictor of Importance
 
@@ -195,7 +195,7 @@ In addition to the observation, it can be seen that the predictors for the 2021 
 
 #### Cluster Table
 
-Based on the cluster table, countries in the high-income level group (4), namely Singapore, Switzerland, Japan, and Germany, have consistently maintained their respective cluster groupings for both years. This could be indicative of their effective responses to national policy changes and robust health systems that meet global healthcare standards. Contrarily, countries in the upper middle-income level (3) are transitioning from the Cluster 3 groupings to the Cluster 2 groupings, demonstrating that governments in countries like China, Malaysia, and Thailand are actively working to implement better national policies and strengthen their national health systems.
+Based on the cluster table, countries in the high-income level group (4), namely Singapore, Switzerland, Japan and Germany have consistently maintained their respective cluster groupings for both years. This could be indicative of their effective responses to national policy changes and robust health systems that meet global healthcare standards. Contrarily, countries in the upper middle-income level (3) are transitioning from the Cluster 3 groupings to the Cluster 2 groupings, demonstrating that governments in countries like China, Malaysia and Thailand are actively working to implement better national policies and strengthen their national health systems.
 
 
 ![Picture16](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/f5251a5e-4556-447a-8bd9-8261a933966e)
@@ -214,16 +214,16 @@ However, Bahrain stands out as an exception in this regard. Despite belonging to
 ![Picture18](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/b6f52379-f71a-4a26-b58c-b6ad7c1b1975)
 
 
-In regards to its policy stringency, Bahrain has been lagging, such as with delayed government responses to school closures, workplace closures, and travel bans. Furthermore, global healthcare norms and security have not been adequately adhered to, such as a lack of a reliable healthcare system to treat the sick and protect healthcare workers from the virus. This is further evidenced by the current COVID-19 warning alert issued by the US Centers for Disease Control and Prevention for Bahrain (CDC, 2022).
+In regards to its policy stringency, Bahrain has been lagging, such as with delayed government responses to school closures, workplace closures and travel bans. Furthermore, global healthcare norms and security have not been adequately adhered to, such as a lack of a reliable healthcare system to treat the sick and protect healthcare workers from the virus. This is further evidenced by the current COVID-19 warning alert issued by the US Centers for Disease Control and Prevention for Bahrain.
 
 ### Conclusion
 
-Based on the clustering solutions generated, it is evident that a simple K-means clustering can effectively group countries according to their COVID-19 risk level. Even with the use of half-year data for 2022, the K-means algorithm is able to demonstrate the alteration in clustering groupings for all the countries. These basic results can be leveraged as a benchmark for other countries to compare and urge other government actors to learn, adjust, and modify their national policies and strategies in accordance with their current country's development and Covid-19 risk level status.
+Based on the clustering solutions generated, it is evident that a simple K-means clustering can effectively group countries according to their COVID-19 risk level. Even with the use of half-year data for 2022, the K-means algorithm is able to demonstrate the alteration in clustering groupings for all the countries. These basic results can be leveraged as a benchmark for other countries to compare and urge other government actors to learn, adjust and modify their national policies and strategies in accordance with their current country's development and Covid-19 risk level status.
 
 ### Discussion 
 Although K-means methods provide an impressive grouping of countries' Covid-19 level risks, the user of the study may find it difficult to use in the initial stage. This is because the user must decide on the set of cluster groupings from the start and then experiment with the k-values until the most appropriate set of cluster groupings is formed. Since K-means can only be applied to numerical data, the user must be content with spherical cluster formations, which assume that each country's cluster grouping contains roughly the same number of observations.
 
-Furthermore, obtaining the variables from an open database might present certain difficulties and limitations. Firstly, the data reported may be incomplete for each country, and the data downloaded may not have been updated in recent years. Secondly, some countries may have been underreporting Covid-19 cases and deaths in the past years. Consequently, the cluster groupings that have been derived may not be a reliable reflection of the COVID-19 risk levels for some of the countries.
+Furthermore, obtaining the variables from an open database might present certain difficulties and limitations. Firstly, the data reported may be incomplete for each country and the data downloaded may not have been updated in recent years. Secondly, some countries may have been underreporting Covid-19 cases and deaths in the past years. Consequently, the cluster groupings that have been derived may not be a reliable reflection of the COVID-19 risk levels for some of the countries.
 
 Despite the varying methodologies and research approaches adopted in this study, the K-means results achieved were almost consistent with the findings presented in the reviewed literature articles. The model was able to accurately analyse and detect the shift in the country's cluster groupings despite utilising a data span of six months for the year 2022. This clearly shows, as the researchers discussed in detail in their studies, that K-means can provide invaluable insights on the level of measures taken by a nation to contain the spread of COVID-19.
 
