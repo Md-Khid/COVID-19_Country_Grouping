@@ -203,10 +203,7 @@ In addition to the observation, it can be seen that the predictors for the 2021 
 
 Based on the cluster [table](https://github.com/Md-Khid/K_Means_Clustering/tree/main/K-Means%20Cluster%20Results%20with%20IBM%20SPSS%20Modeller), countries in the high-income level group (4), namely Singapore, Switzerland, Japan and Germany have consistently maintained their respective cluster groupings for both years. This could be indicative of their effective responses to national policy changes and robust health systems that meet global healthcare standards. Contrarily, countries in the upper middle-income level (3) are transitioning from the Cluster 3 groupings to the Cluster 2 groupings, demonstrating that governments in countries like China, Malaysia and Thailand are actively working to implement better national policies and strengthen their national health systems.
 
-
-![Picture16](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/f5251a5e-4556-447a-8bd9-8261a933966e)
-
-
+<img width="502" alt="3" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/074edf66-5130-4178-90bc-5364b7c4211d">
 
 However, Bahrain stands out as an exception in this regard. Despite belonging to the high-income level, the country has been transitioning from Cluster 1 to Cluster 3 groupings for the past year. A closer examination of the model results reveals that Bahrain's national policies and strategies may not be as effective as those of the other countries in the cluster groupings.
 
