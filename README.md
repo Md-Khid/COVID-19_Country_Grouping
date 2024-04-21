@@ -148,7 +148,8 @@ Despite initially being regarded as affecting variables, the study decided to re
 
 #### VIF values for all variables (after removing the affecting variable)
 
-![2021 VIF-Total Population and Total cases removed](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/01207487-58ab-490d-9e97-e6d0023093c4)
+<img width="312" alt="2" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/befc298b-3578-4cf0-b891-f6152af88a1e">
+
 
 Based on this stage of preparation, the study was able to successfully eliminate the variables that could lead to multicollinearity during the clustering process. The final 14 variables will then be inputted into clustering algorithm during the modelling stage.
 
