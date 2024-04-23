@@ -22,7 +22,6 @@ The purpose of this process is to gain a thorough understanding of the data attr
 |--------------------------------------------|-----------------------------------------------------|-----------------------------------|
 | Total Population<sup>1</sup>                           | World Development Indicators                       | [databank.worldbank.org](https://databank.worldbank.org)<sup>1</sup> |
 | Infant Mortality Rate <sup>1</sup>                     | World Development Indicators                 | |
-| Country Income Level<sup></sup>                      | World Bank Country and Lending Groups Dataset      |                                                    |
 | Total Cases <sup>2</sup>                               | Covid-19 Dataset                                   | [ourworldindata.org](https://ourworldindata.org)<sup>2</sup> |
 | Total Deaths <sup>2</sup>                              |                                                     |                                   |
 | Total Vaccinations per hundred <sup>2</sup>            |                                                     |                                   |
@@ -36,6 +35,7 @@ The purpose of this process is to gain a thorough understanding of the data attr
 | Prevalence Rate Chronic Obstructive Pulmonary Disease (COPD)<sup>3</sup> |                                              |                                   |
 | Air Quality PM2.5 <sup>4</sup>                         | Air Quality Dataset                                | [who.int](https://who.int) <sup>4</sup>      |
 | Health Security Index <sup>5</sup>                    | GHS Index Dataset                                  | [ghsindex.org](https://ghsindex.org)<sup>5</sup> |
+| Country Income Level<sup><6sup>                      | World Bank Country and Lending Groups Dataset      |    [datatopics.worldbank.org](https://datatopics.worldbank.org)<sup><6sup>                  |
 
 
 
