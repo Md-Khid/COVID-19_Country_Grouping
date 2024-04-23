@@ -21,7 +21,7 @@ The purpose of this process is to gain a thorough understanding of the data attr
 | Variable Name                              | Dataset                                             | Webpage                            |
 |--------------------------------------------|-----------------------------------------------------|-----------------------------------|
 | Total Population<sup>1</sup>                           | World Development Indicators                       | [databank.worldbank.org](https://databank.worldbank.org)<sup>1</sup> |
-| Infant Mortality Rate <sup>1</sup>                     | World Development Indicators                 | |
+| Infant Mortality Rate <sup>1</sup>                     |                                                    |                                                               |
 | Total Cases <sup>2</sup>                               | Covid-19 Dataset                                   | [ourworldindata.org](https://ourworldindata.org)<sup>2</sup> |
 | Total Deaths <sup>2</sup>                              |                                                     |                                   |
 | Total Vaccinations per hundred <sup>2</sup>            |                                                     |                                   |
