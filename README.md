@@ -20,21 +20,21 @@ The purpose of this process is to gain a thorough understanding of the data attr
 
 | Variable Name                              | Dataset                                             | Webpage                            |
 |--------------------------------------------|-----------------------------------------------------|-----------------------------------|
-| Total Population<sup>1</sup>                           | World Development Indicators                       | [databank.worldbank.org](https://databank.worldbank.org)<sup>1</sup> |
-| Infant Mortality Rate <sup>1</sup>                     |                                                    |                                                               |
-| Total Cases <sup>2</sup>                               | Covid-19 Dataset                                   | [ourworldindata.org](https://ourworldindata.org)<sup>2</sup> |
-| Total Deaths <sup>2</sup>                              |                                                     |                                   |
-| Total Vaccinations per hundred <sup>2</sup>            |                                                     |                                   |
-| GDP per capita <sup>2</sup>                            |                                                     |                                   |
-| Female Smokers <sup>2</sup>                             |                                                     |                                   |
-| Male Smokers <sup>2</sup>                              |                                                     |                                   |
-| Stringency Index <sup>2</sup>                          |                                                     |                                   |
-| Prevalence Rate Diabetes Mellitus <sup>3</sup>         | Global Burden of Disease Study Dataset            | [ghdx.healthdata.org](https://ghdx.healthdata.org)<sup>3</sup> |
-| Prevalence Rate HIV/AIDS <sup>3</sup>                  |                                                     |                                   |
+| Total Population<sup>1</sup>                           | World Development Indicators<sup>1</sup>                       | [databank.worldbank.org](https://databank.worldbank.org)<sup>1</sup> |
+| Infant Mortality Rate<sup>1</sup>                     |                                                    |                                                               |
+| Total Cases<sup>2</sup>                               | Covid-19 Dataset<sup>2</sup>                                   | [ourworldindata.org](https://ourworldindata.org)<sup>2</sup> |
+| Total Deaths<sup>2</sup>                              |                                                     |                                   |
+| Total Vaccinations per hundred<sup>2</sup>            |                                                     |                                   |
+| GDP per capita<sup>2</sup>                            |                                                     |                                   |
+| Female Smokers<sup>2</sup>                             |                                                     |                                   |
+| Male Smokers<sup>2</sup>                              |                                                     |                                   |
+| Stringency Index<sup>2</sup>                          |                                                     |                                   |
+| Prevalence Rate Diabetes Mellitus<sup>3</sup>         | Global Burden of Disease Study Dataset            | [ghdx.healthdata.org](https://ghdx.healthdata.org)<sup>3</sup> |
+| Prevalence Rate HIV/AIDS<sup>3</sup>                  |                                                     |                                   |
 | Prevalence Rate Tuberculosis<sup>3</sup>              |                                                     |                                   |
 | Prevalence Rate Chronic Obstructive Pulmonary Disease (COPD)<sup>3</sup> |                                              |                                   |
-| Air Quality PM2.5 <sup>4</sup>                         | Air Quality Dataset                                | [who.int](https://who.int) <sup>4</sup>      |
-| Health Security Index <sup>5</sup>                    | GHS Index Dataset                                  | [ghsindex.org](https://ghsindex.org)<sup>5</sup> |
+| Air Quality PM2.5<sup>4</sup>                         | Air Quality Dataset                                | [who.int](https://who.int)<sup>4</sup>      |
+| Health Security Index<sup>5</sup>                    | GHS Index Dataset                                  | [ghsindex.org](https://ghsindex.org)<sup>5</sup> |
 | Country Income Level<sup><6sup>                      | World Bank Country and Lending Groups Dataset      |    [datatopics.worldbank.org](https://datatopics.worldbank.org)<sup><6sup>                  |
 
 
