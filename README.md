@@ -22,7 +22,7 @@ Pie<sup>2</sup>
 
 | Variable Name                              | Dataset                                             | Webpage                            |
 |--------------------------------------------|-----------------------------------------------------|-----------------------------------|
-| Total Population                           | World Development Indicators                       | [databank.worldbank.org](https://databank.worldbank.org) |
+| Total Population<sup>1</sup>                           | World Development Indicators                       | [databank.worldbank.org](https://databank.worldbank.org)<sup>1</sup> |
 | Total Cases                                | Covid-19 Dataset                                   | [ourworldindata.org](https://ourworldindata.org) |
 | Total Deaths                               |                                                     |                                   |
 | Total Vaccinations per hundred             |                                                     |                                   |
