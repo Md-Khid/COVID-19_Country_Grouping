@@ -17,7 +17,17 @@ The business analytics problem is to accurately group countries based on their r
 ### Data Understanding and Preparation in Microsoft Excel
 The purpose of this process is to gain a thorough understanding of the data attributes, distribution, quality and statistical data that will be used in the study. To obtain the dataset, the study will utilise publicly available data sources on the internet. Only the specific variable name(s) specified in table below will be selected from each dataset for the study. The motivation for selecting such variables from these online sources is that both the variable name(s) and datasets have been utilised by prior researches discussed in the literature review. Therefore, the variable(s) of interest are extracted from each downloaded dataset.
 
-Pie<sup>2</sup>
+| Variable Name                | Dataset                      | Webpage                                                      |
+|------------------------------|------------------------------|--------------------------------------------------------------|
+| Total Population1            | World Development Indicators | [databank.worldbank.org1](https://databank.worldbank.org/)   |
+| Total Cases2                 | Covid-19 Dataset             | [ourworldindata.org2](https://ourworldindata.org/coronavirus)|
+| Total Deaths2                |                              |                                                              |
+| Total Vaccinations per hundred2|                            |                                                              |
+| GDP per capita2              |                              |                                                              |
+| Female Smokers2              |                              |                                                              |
+| Male Smokers2                |                              |                                                              |
+| Stringency Index2            |                              |                                                              |
+
 
 
 | Variable Name                              | Dataset                                             | Webpage                            |
