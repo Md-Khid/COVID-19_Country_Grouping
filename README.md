@@ -35,7 +35,7 @@ The purpose of this process is to gain a thorough understanding of the data attr
 | Prevalence Rate Chronic Obstructive Pulmonary Disease (COPD)<sup>3</sup> |                                              |                                   |
 | Air Quality PM2.5<sup>4</sup>                         | Air Quality Dataset<sup>4</sup>                                | [who.int](https://who.int)<sup>4</sup>      |
 | Health Security Index<sup>5</sup>                    | GHS Index Dataset<sup>5</sup>                                   | [ghsindex.org](https://ghsindex.org)<sup>5</sup> |
-| Country Income Level<sup>6</sup>                     | World Bank Country and Lending Groups Dataset<sup>6</sup>         |    [datatopics.worldbank.org](https://datatopics.worldbank.org)<sup>6</sup>                   |
+| Country Income Level<sup>6</sup>                     | World Bank Country and Lending Groups Dataset<sup>6</sup>         |    [datatopics.worldbank.org](https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html)<sup>6</sup>                   |
 
 
 
