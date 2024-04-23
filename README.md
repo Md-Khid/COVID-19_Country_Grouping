@@ -23,21 +23,21 @@ Pie<sup>2</sup>
 | Variable Name                              | Dataset                                             | Webpage                            |
 |--------------------------------------------|-----------------------------------------------------|-----------------------------------|
 | Total Population<sup>1</sup>                           | World Development Indicators                       | [databank.worldbank.org](https://databank.worldbank.org)<sup>1</sup> |
-| Total Cases                                | Covid-19 Dataset                                   | [ourworldindata.org](https://ourworldindata.org) |
-| Total Deaths                               |                                                     |                                   |
-| Total Vaccinations per hundred             |                                                     |                                   |
-| GDP per capita                             |                                                     |                                   |
-| Female Smokers                             |                                                     |                                   |
-| Male Smokers                               |                                                     |                                   |
-| Stringency Index                           |                                                     |                                   |
-| Prevalence Rate Diabetes Mellitus          | Global Burden of Disease Study Dataset            | [ghdx.healthdata.org](https://ghdx.healthdata.org) |
-| Prevalence Rate HIV/AIDS                  |                                                     |                                   |
-| Prevalence Rate Tuberculosis              |                                                     |                                   |
-| Prevalence Rate Chronic Obstructive Pulmonary Disease (COPD) |                                              |                                   |
-| Air Quality PM2.5                         | Air Quality Dataset                                | [who.int](https://who.int)       |
-| Health Security Index                     | GHS Index Dataset                                  | [ghsindex.org](https://ghsindex.org) |
-| Infant Mortality Rate                     | World Development Indicators                       | [databank.worldbank.org](https://databank.worldbank.org) |
-| Country Income Level                      | World Bank Country and Lending Groups Dataset      | [datatopics.worldbank.org](https://datatopics.worldbank.org) |
+| Total Cases <sup>2</sup>                               | Covid-19 Dataset                                   | [ourworldindata.org](https://ourworldindata.org)<sup>2</sup> |
+| Total Deaths <sup>2</sup>                              |                                                     |                                   |
+| Total Vaccinations per hundred <sup>2</sup>            |                                                     |                                   |
+| GDP per capita <sup>2</sup>                            |                                                     |                                   |
+| Female Smokers <sup>2</sup>                             |                                                     |                                   |
+| Male Smokers <sup>2</sup>                              |                                                     |                                   |
+| Stringency Index <sup>2</sup>                          |                                                     |                                   |
+| Prevalence Rate Diabetes Mellitus <sup>3</sup>         | Global Burden of Disease Study Dataset            | [ghdx.healthdata.org](https://ghdx.healthdata.org)<sup>3</sup> |
+| Prevalence Rate HIV/AIDS <sup>3</sup>                  |                                                     |                                   |
+| Prevalence Rate Tuberculosis<sup>3</sup>              |                                                     |                                   |
+| Prevalence Rate Chronic Obstructive Pulmonary Disease (COPD)<sup>3</sup> |                                              |                                   |
+| Air Quality PM2.5 <sup>4</sup>                         | Air Quality Dataset                                | [who.int](https://who.int) <sup>4</sup>      |
+| Health Security Index <sup>5</sup>                    | GHS Index Dataset                                  | [ghsindex.org](https://ghsindex.org)<sup>5</sup> |
+| Infant Mortality Rate <sup>6</sup>                     | World Development Indicators                       | [databank.worldbank.org](https://databank.worldbank.org) <sup>6</sup>|
+| Country Income Level<sup>6</sup>                      | World Bank Country and Lending Groups Dataset      |                                                    |
 
 
 The extracted data are combined into a single Microsoft Excel file by utilising the v-lookup function to retrieve the necessary variables contained in the downloaded dataset. An additional variable titled 'Percentage Ratio of Total Cases to Total Population' will be generated to acquire the percentage value of COVID-19 occurrences. This variable will be used in the study to reflect the number of infection cases per population within a country. For the purpose of simplicity in the study, only countries with full data for the years 2021 and 2022 will be chosen for the analysis (see combined dataset [here](https://github.com/Md-Khid/K_Means_Clustering/tree/main/Combined%20Dataset%20Yr2021%20and%20Yr2022)). Given the study was conducted in late 2022, only data from January to June 2022, representing half of the year, was accessible. 
