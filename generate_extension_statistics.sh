@@ -14,8 +14,11 @@ else
     percentage_str=$(echo "scale=2; ($count_str / $total_files) * 100" | bc)
     percentage_jrp=$(echo "scale=2; ($count_jrp / $total_files) * 100" | bc)
 
-    echo ".str files: $percentage_str%"
-    echo ".jrp files: $percentage_jrp%"
+    # Display percentages with software names
+    echo "File Extension Statistics:"
+    echo "IBM SPSS Modeller (.str): $percentage_str%"
+    echo "JMP (.jrp): $percentage_jrp%"
 fi
+
 
 
