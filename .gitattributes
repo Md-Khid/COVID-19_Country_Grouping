@@ -1,2 +1,1 @@
-*.str text diff=ibm_spss
-*.jmp text diff=jmp
+*.str linguist-language=SPSSModeler
