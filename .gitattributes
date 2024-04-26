@@ -1,2 +1,2 @@
-*.strm diff=ibm-spss
-*.jmp diff=jmp
+*.str text diff=ibm_spss
+*.jmp text diff=jmp
