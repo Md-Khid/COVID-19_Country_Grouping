@@ -1,15 +1,20 @@
 #!/bin/bash
 
-# Get list of file extensions in the repository
-extensions=$(find . -type f | grep -Eo '\.[^.]+$' | sort | uniq -c | awk '{print $2}')
+# Count the number of .str and .jmp files in the repository
+count_str=$(find . -type f -name "*.str" | wc -l)
+count_jmp=$(find . -type f -name "*.jmp" | wc -l)
 
-# Count total number of files
+# Get the total number of files in the repository
 total_files=$(find . -type f | wc -l)
 
-# Calculate percentage for each extension
-echo "File Extension Statistics:"
-for ext in $extensions; do
-    count=$(find . -type f -name "*$ext" | wc -l)
-    percentage=$(echo "scale=2; ($count / $total_files) * 100" | bc)
-    echo "$ext: $percentage%"
-done
+# Calculate the percentages
+if [[ $total_files -eq 0 ]]; then
+    echo "No files found in the repository."
+else
+    percentage_str=$(echo "scale=2; ($count_str / $total_files) * 100" | bc)
+    percentage_jmp=$(echo "scale=2; ($count_jmp / $total_files) * 100" | bc)
+
+    echo ".str files: $percentage_str%"
+    echo ".jmp files: $percentage_jmp%"
+fi
+
