@@ -32,44 +32,16 @@ In this section, the study will illustrate the correlation between Total Vaccina
 
 <img width="1094" alt="Picture4" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/23067959-64cd-4ff9-bf1d-73bf3d9df6a8">
 
-
 #### GDP per capita Yr.2022
 
 A closer examination reveals, however, that the rise in total vaccinations per hundred people in the population may not be directly correlated to the nation's GDP per capita. Despite a steady GDP per capita in 2022, the number of total vaccinations per hundred is consistently on the rise, shifting to the right. This could suggest that the majority of countries studied are committed to providing their populations with a minimum of two doses of vaccination per hundred individuals, regardless of their GDP levels.
 
 <img width="1090" alt="Picture5" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/7d4aa214-d707-4e4b-9bcb-6e1b02abeffe">
 
-
 #### Country Characteristics and Disease Burden for the Years 2021 & 2022
 For the concluding data exploration, the study will demonstrate the association between a country's location and income level and the extent of both infectious and chronic diseases. It can be seen that in lower middle-income countries such as Zimbabwe, there is a greater prevalence of infectious diseases such as HIV and AIDS, whereas in upper-middle countries such as Azerbaijan, Malaysia, Thailand, Brazil and China, chronic diseases like Chronic Obstructive Pulmonary Disease (COPD) are more commonly observed. It can also be observed that both these lower and upper middle-income countries tend to demonstrate a higher prevalence of chronic diseases when compared to the high-income countries such as Bahrain, Japan and Singapore. Consequently, it is likely that the population in these countries may lack the necessary access to healthcare facilities to receive the necessary medical treatment.
 
 <img width="1746" alt="Picture6" src="https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/88b3cb0b-2557-4cbc-8421-ddfb74bfb95f">
-
-### Data Understanding and Preparation in IBM SPSS Modeller
-
-From the obtained variables, the study will proceed to further examine the combined dataset with IBM SPSS Modeller. At this stage of preparation, the study will insert a Database node into the modeller stream to read the dataset. It will then filter out the ‘Location’, 'Date' & ‘Country Income Level’ variables in the Database node to prevent them from being fed into the clustering algorithm. Following this, it will input the filtered dataset into the Data Audit node to assess the quality and distribution of the combined data.
-
-From the data quality table, it can be observed that there are no missing data detected. However, there are some (extreme) outliers present in the data for the years 2021 and 2022. These outliers might signify unusual or exceptional circumstances that remain valid and pertinent to the analysis. Eliminating them may result in a loss of valuable insights into these distinct situations. Variables such as population size, total deaths, air quality, total cases, infant mortality rates, stringent index and HIV/AIDS can display considerable variation across various regions and countries.  Outliers in these variables may merely mirror the inherent diversity of the data rather than errors or anomalies.
-
-##### Data Quality Table for Yr.2021
-
-![Picture7(2021)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/94908a24-a2b5-48d5-8c68-c414e4caf440)
-
-
-##### Data Quality Table for Yr.2022
-
-![Picture8(2022)](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/7313df15-14e3-477d-b744-03e3c916789e)
-
-From the data audit table, it can be observed that the minimum and maximum values for the variables in both datasets are not uniformly standardised or within the same range. This range distribution can have a significant impact on the effectiveness of the K-means clustering algorithm, as it utilises the Euclidean Distance Measure to estimate the distance between two observations (i.e. x and y) to define the shape and relationship of the clusters. To address the problem of data uniformity, the dataset will be passed through the Auto Data Prep node to scale all continuous variables into a linear format.
-
-##### Data Audit Table for Yr.2021 (Before & After scaling)
-
-![2021](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/e35e352c-92e6-4e78-8425-078c1dcff593)
-
-##### Data Audit Table for Yr.2022 (Before & After scaling)
-
-![2022](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/ce31a6cd-d21b-42c6-a6bf-f70f65c8e4ee)
-
 
 ### Data Understanding and Preparation in JMP Statistical Software 
 
@@ -135,14 +107,6 @@ For 2021 cluster groupings, it can be seen that 75.7% of the countries are in Cl
 
 For 2022 cluster groupings, 73% of the countries are in Cluster 1 (Low Covid-19 risk), 24.3% in Cluster 2 (Moderate Covid-19 risk) and 2.7% in Cluster 3 (High Covid-19 risk).
 
-#### Predictor of Importance
-
-
-![Importance predictors for Yr](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/9be25061-c23d-461b-b799-441d27796a96)
-
-
-In addition to the observation, it can be seen that the predictors for the 2021 and 2022 cluster groupings have different levels of importance. This could be because of the half-year data employed for the 2022 dataset. Nevertheless, the major predictors for both datasets can be attributed to variables such as Infant Mortality Rate, Chronic Obstructive Pulmonary Disease, Female Smokers and the Percentage Ratio of Total Cases to Population.
-
 #### Cluster Table
 
 Based on the cluster [table](https://github.com/Md-Khid/K_Means_Clustering/tree/main/K-Means%20Cluster%20Results%20with%20IBM%20SPSS%20Modeller), countries in the high-income level group (4), namely Singapore, Switzerland, Japan and Germany have consistently maintained their respective cluster groupings for both years. This could be indicative of their effective responses to national policy changes and robust health systems that meet global healthcare standards. Contrarily, countries in the upper middle-income level (3) are transitioning from the Cluster 3 groupings to the Cluster 2 groupings, demonstrating that governments in countries like China, Malaysia and Thailand are actively working to implement better national policies and strengthen their national health systems.
@@ -152,7 +116,6 @@ Based on the cluster [table](https://github.com/Md-Khid/K_Means_Clustering/tree/
 However, Bahrain stands out as an exception in this regard. Despite belonging to the high-income level, the country has been transitioning from Cluster 1 to Cluster 3 groupings for the past year. A closer examination of the model results reveals that Bahrain's national policies and strategies may not be as effective as those of the other countries in the cluster groupings.
 
 #### Cell Distribution Index
-
 
 ![Picture17](https://github.com/Md-Khid/K_Means_Clustering/assets/160820522/ba5ab7d8-6b12-43c6-b89d-21d06b12b445)
 
