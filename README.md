@@ -7,10 +7,7 @@ The objective of this study is to conduct an in-depth analysis to determine coun
 The extracted data are combined into a single Microsoft Excel file by utilising the v-lookup function to retrieve the necessary variables contained in the downloaded dataset. An additional variable titled 'Percentage Ratio of Total Cases to Total Population' will be generated to acquire the percentage value of COVID-19 occurrences. This variable will be used in the study to reflect the number of infection cases per population within a country. For the purpose of simplicity in the study, only countries with full data for the years 2021 and 2022 will be chosen for the analysis (see combined dataset [here](https://github.com/Md-Khid/COVID-19_Country_Grouping/tree/main/Combined%20Dataset)). Given the study was conducted in late 2022, only data from January to June 2022, representing half of the year, was accessible. 
 Based on this preparatory stage, the study has identified a total of 37 countries to be used in the clustering method. The variables obtained from the combined dataset are described in the table below.
 
-#### Data Exploration
-
-For data exploration (utilising MS Excel pivot table), the study will delve deeper into the relationships between the locations of the countries and their total vaccinations per hundred, GDP per capita and the prevalence of chronic and infectious diseases. 
-
+## Data Exploration
 #### Total Vaccinations Per Hundred Yr.2020
 
 In this section, the study will demonstrate the significant rise in the number of countries that have commenced their vaccination per 100 people since 2020. During the initial stages of the virus outbreak, it can be observed that only Bahrain and Israel had begun vaccinating their populations.
